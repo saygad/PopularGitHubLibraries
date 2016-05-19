@@ -1,0 +1,205 @@
+开发方面(develop)：
+
+stetho 
+(强大的Android调试工具)
+
+android-common 
+（Trinea 大神收集的一些开发通用的缓存, 公共 View 以及一些常用工具类）
+
+react-native 
+（Js开源框架，可以用来开发android和ios）
+
+dynamic-load-apk 
+( Apk 动态加载框架,详情可google)
+
+ExoPlayer 
+(Google 开发团队开源出来的一个媒体播放库, 比 Android 框架原生的 MediaPlayer 拥有更多优点支持动态的自适应流 HTTP(DASH) 和 平滑流, 支持高级的HLS特性, 支持自定义和扩治你的使用场景等等)
+
+Rxjava 
+(实现异步操作的库，特点是简洁)
+
+Rxandroid 
+(是Rxjava针对android平台的拓展)
+
+Evenbus 
+(Android 事件库，可以替带 Android BroadCast, BroadCastReceiver, Handler 在 Activity, Fragment, Service, 线程之间传递消息, 大大简化了事件传递逻辑)
+
+otto 
+(一个事件库 (pub/sub 模式), 用来简化应用程序组件之间的通讯, otto 修改自 Google 的 Guava 库, 专门为 Android 平台进行了优化)
+
+leakcanary 
+（开发过程中检测内存泄漏的工具）
+
+butterknife 
+(view的注入框架，可以简写很多findViewById代码，还支持View的事件处理函数)
+
+realm-java 
+(一个轻量的 Android 版本的数据存储库)
+
+DroidPlugin 
+(一个插件机制，它可以在无需安装, 修改的情况下运行APK文件, 此机制对改进大型APP的架构, 实现多团队协作开发具有一定的好处)
+
+快速开发
+
+androidannotations 
+(能够让你快速进行开发的android的开源框架)
+
+xUtils 
+(是一个快速开发框架, 里面包含 DbUtils, ViewUtils, HttpUtils, BitmapUtils 四大模块, 可用于快速开发, 支持大文件上传, 拥有更加灵活的 ORM)
+
+AppIntro 
+(AppIntro 是一个让人轻松快速搭建漂亮酷炫的引导页库)
+
+布局/动画
+
+Ultra-Pull-To-Refresh 
+（强大的拉动刷新开源项目）
+
+material 
+(将 Material Design 风格控件封装在该库当中,目前有:Progress, Button, Switch, Slider, Spinner, Text Field, TabPageIndicator, SnackBar, Dialog, BottomSheetDialog, Dynamic theme)
+
+MaterialDesignLibrary 
+(google规范的控件库)
+
+materialDialogs 
+(符合Material设计规范的可高对定制的对话框)
+
+MaterialDrawer 
+(实用的侧滑显示控件)
+
+Material-Animations 
+(很好的过渡动画库，应用于 Activity与Activity，Fragment 与 Fragment 以及各个View变化前后的过度动画)
+
+rebound 
+(Facebook 推出的一个弹性动画库, 可以让动画看起来真实自然, 像真实世界的物理运动, 带有力的效果, 使用的参数则是 Facebook 的 origami 中使用的)
+
+MaterialViewPager 
+(简单易用的 ViewPager 库)
+
+StaggeredGridLayoutManager 
+(RecyleView 中的 StaggeredGridLayoutManager 布局来实现瀑布流效果)
+
+Android-CleanArchitecture 
+(CleanArchitecture 是一个非常典型使用 MVP 架构的项目,有助于理解MVP架构)
+
+AndroidObservableScrollView 
+(滚动视图中观测滚动事件的 Android 库,帮助开发者实现拥有 Material Design 应用视觉体验的界面外观, 轻松的与Android 5.0 Lollipop 引进的工具栏 (Toolbar) 进行交互 支持ListView, ScrollView, WebView, RecyclerView, GridView组件)
+
+StickyListHeaders 
+(StickyListHeaders 是一个实现能够固定在屏幕顶部的ListView Section Header库)
+
+android_bootstrap 
+(这个库能够实现很多 Bootstrap 的样式风格)
+
+androidSwipeLayout 
+(是一个支持ListView, GridView, ViewGroup等等左右上下滑动出操作菜单)
+
+Dagger 
+(Dagger 是 Android 和 Java 的快速依赖注入器, 能够有效减少你敲代码量)
+
+ListViewAnimations 
+(给 Android ListView 添加动画效果的库)
+
+AndroidViewAnimations 
+(这个库能实现很多很酷炫的 Android 动画)
+
+RippleEffect 
+（一个实现在 Android 任何组件点击出现 Material Design 的波纹效果）
+
+recyclerview-animators 
+（一个对 Recycler 控件的 Item 添加以及删除增加动画效果, 动画效果有Scale, Fade, Flip, Slide 里面各种各样效果）
+
+circular-progress-button 
+（一个带进度显示的 Button, 效果和动画做的都非常好）
+
+AndroidSlidingUpPanel 
+(这是一个上拉面板，向上滑动的时候往上飞出一个显示面板控件)
+
+ActionBar-PullToRefresh 
+(下拉刷新时在 ActionBar 出现加载中提示的库)
+
+SmoothProgressBar 
+(SmoothProgressBar 是一个帮你的 App 方便实现可定制, 平滑动画的水平滚动进度条库)
+
+twoway-view 
+(TwoWayView 是简化 RecyclerView 开发的一个库, 可以在其 Base LayoutManager 基础上构建各种各样的布局, 该库内置了几个常用布局 List, Grid, Staggered Grid,Spannable Grid)
+
+ShowcaseView 
+(是一个非常适用于用户第一次使用来进行引导的库，非常简单，可以自定义样式)
+
+Calligraphy 
+(Calligraphy 是一个用来简化 Android 应用使用自定义字体的类库, 该类库会自动查找应用中的 TextView 并设置其使用的字体)
+
+android-floating-action-button 
+（一个悬浮操作按钮的库， 个人感觉这个库比官方那个Support Design 包下封装的FloatingActionButton更加好用）
+
+FloatingActionButton 
+(该库添加支持监听滑滚动事件, 当向下滑时按钮隐藏, 向上滑时按钮显示, 还有动画效果, 支持监听 ListView, ScrollView, RecylerView)
+
+CircleImageView 
+(一个基于ImageView 扩展出来轻松帮你实现圆形效果 ImageView 图片库)
+
+网络方面
+
+volley 
+（谷歌推出的网络框架，这个框架把 AsyncHttpClient 和 Universal-Image-Loader 的优点集于了一身,既可以像AsyncHttpClient 一样非常简单地进行 HTTP 通信,也可以像 Universal-Image-Loader 一样轻松加载网络上的图片）
+
+retrofit 
+(http请求库，目前 Android 最流行的 Http Client 库之一)
+
+okhttp 
+(http请求库，google不推荐httpClient,但内置得又不好用，有人用这个替代)
+
+android-async-http 
+（老牌异步请求库，特点是size小，上传不需要第三方库支持，内部使用线程池来处理并发）
+
+ion 
+（ion 是一个让 Android 的网络操作变得极其简单, 支持异步获取和处理JSON, 支持 Android 文件下载 (同时支持下载进度条绑定), 支持安全链接和代理）
+
+AndroidAsync 
+（ 是一款基于 NIO 的低端 Android 异步 socket, http (client+server), websocket 和 socket.io 网络通信协议类库）
+
+fastjson 
+（Java 语言编写的高性能功能完善的 JSON 库）
+
+greenDAO 
+（一个可以帮助 Android 开发者快速将 Java 对象映射到 SQLite 数据库的表单中的 ORM解决方案）
+
+ActiveAndroid 
+(采用Rails中的 Active Record架构模式设计的适用于 Android 平台的轻量级 ORM 架构)
+
+图片方面：
+
+Android-Universal-Image-Loader 
+（有强大缓存机制的图片缓存库）
+
+picasso 
+（JakeWharton 大神主导的图片缓存库）
+
+Glide 
+(与picasso很像，但很多细节不一样，各有优缺)
+
+fresco 
+（FB的图片缓存库，强大的图片加载组件）
+
+MPAndroidChart 
+（强大的android图表库，支持各种各样的图表显示）
+
+ViewpagerIndicator 
+(viewpager指示器，使用简单方便，可高度定制)
+
+HomeMirror 
+(android镜子应用)
+
+PhotoView 
+（imageView的子类，非常方便的与 ImageLoader/Picasso 之类的网络图片读取库集成使用，还方便的与 ViewPager 等同样支持滑动手势的控件集成）
+
+开发实践
+
+android-best-practices 
+（适合新手）
+
+二维码
+
+zxing 
+（提供了多个平台的二维码/条形码扫描解决方案，扫描快，识别率高，使用简单）
